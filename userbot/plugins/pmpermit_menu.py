@@ -28,14 +28,14 @@ async def _(event):
             return
         if event.is_private:
          
-         PM = ("`Hello. You are accessing the availabe menu of my peru master,`"
+         PM = ("**What is the purpose of message?**"
                f"{DEFAULTUSER}.\n"
-               "__Let's make this smooth and let me know why you are here ! So Select A Reason And Send it's Number__\n"
-               "**Choose one of the following reasons why you are here:**\n\n"
+               "__Let's select the category of your message! So Select A Category And Send it's Number__\n"
+               "**Choose one of the following categories :**\n\n"
                "`1`. 🚑 Emergency \n"
                "`2`. ☺️ I can wait for a while.\n")
          ONE = ("`I Have Registered Your Request ! Don't Worry My Master Will Be Here Soon To Chat With You !` \n\n")
-         TWO = ("`😏 Thank you, Send you message here and stay tuned!`")
+         TWO = ("`😏 Thank you, Send your message here and stay tuned!`")
          FOUR = ("`Okay ! I See You Can Request Your Demands ! Please Wait Untill My Master Approves You` !")
          FIVE = ("`Okay. please have the basic manners as to not bother my master too much. If he wishes to help you, he will respond to you soon.`\n**Kindly Do not ask repeatdly else you will be blocked and reported.**")
          LWARN = ("**This is your last warning. DO NOT send another message else you will be blocked and reported. Keep patience. My master will respond you ASAP.**\n__Use__ `/start` __to go back to the main menu.__")
