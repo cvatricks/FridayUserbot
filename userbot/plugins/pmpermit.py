@@ -26,7 +26,7 @@ USER_BOT_NO_WARN = ("**Hello !** \n\n  __💬 Messaging is not yet Authorised by
                     "\n\n __Currently "
                     f"{DEFAULTUSER} is Offline or may be Busy ! So Better Don't Spam His Inbox !__ \n\n"
                     f"\n\n"
-                    "Now You Are In Trouble \n So Send 🍁 `/start` 🍁  To Authorise, 💬 Messages!!")
+                    "__Now You Are In Trouble \n So Send__ **/start**   __To Authorise, 💬 Messages!!__")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
