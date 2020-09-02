@@ -22,11 +22,11 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars 
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else " "
 USER_BOT_WARN_ZERO = " "
 USER_BOT_NO_WARN = ("**Hello !** \n\n  __💬 Messaging is not yet Authorised by you.__ "
-                    "` __😏 Cool, still there is a way to get Authorisation for Message__ `\n\n"
-                    "**Currently **"
-                    f"{DEFAULTUSER} is Offline or may be Busy ! So Better Don't Spam His Inbox !\n\n"
-                    f"{CUSTOM_MIDDLE_PMP} \n\n"
-                    "**Now You Are In Trouble \n So Send** 🍁 `/start` 🍁  **To Authorise, 💬 Messages!!**")
+                    "\n\n __😏 Cool, still there is a way to get Authorisation for Message__ "
+                    "\n\n __Currently "
+                    f"{DEFAULTUSER} is Offline or may be Busy ! So Better Don't Spam His Inbox !__ \n\n"
+                    f"\n\n"
+                    "Now You Are In Trouble \n So Send 🍁 `/start` 🍁  To Authorise, 💬 Messages!!")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
