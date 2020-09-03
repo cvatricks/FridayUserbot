@@ -19,13 +19,11 @@ from search_engine_parser import GoogleSearch
 import requests
 import bs4
 import re
+import html5lib
 
 
 def progress(current, total):
     logger.info("Downloaded {} of {}\nCompleted {}".format(current, total, (current / total) * 100))
-
-
-
 
 
 
