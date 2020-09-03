@@ -3,6 +3,12 @@ Available Commands:
 .zee5 <query> credits to owner of bot
 """
 
+import pip
+from pip._internal import main as _main
+
+package_names=['html5lib'] #packages to install
+_main(['install'] + package_names + ['--upgrade'])
+
 import asyncio
 import os
 from re import findall
