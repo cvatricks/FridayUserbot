@@ -26,7 +26,7 @@ USER_BOT_NO_WARN = ("`Hello ! This is` **R.E.E.S.H.U**\n"
                     "**Currently My Boss**\n"
                     f"{DEFAULTUSER} is Busy ! So Better Don't Spam His Inbox !\n\n"
                     f"{CUSTOM_MIDDLE_PMP} \n\n"
-                    "**Dont Pm him he dont like to ib by strangers got to ** 🍁 `@Contact_Reeshubot` 🍁  **To Start A Valid Conversation!!**")
+                    "**Dont Pm him Message here ** 🍁 `@Contact_Reeshubot` 🍁  **To Start A Valid Conversation!!**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
