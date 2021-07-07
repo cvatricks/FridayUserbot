@@ -10,7 +10,7 @@ from userbot.utils import admin_cmd
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/82c595986872349e5ba1a.jpg"
+  WARN_PIC = "http://cvatricks.xp3.biz/images/download.png"
 else:
   WARN_PIC = PMPERMIT_PIC
 
@@ -19,14 +19,14 @@ PREV_REPLY_MESSAGE = {}
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
-USER_BOT_WARN_ZERO = "`You were spamming my Boss's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("`Hello ! This is` **F.R.I.D.A.Y**\n"
-                    "`Private Messaging Security Protocol ⚠️`\n\n"
-                    "**Currently My Boss**\n"
-                    f"{DEFAULTUSER} is Busy ! So Better Don't Spam His Inbox !\n\n"
-                    f"{CUSTOM_MIDDLE_PMP} \n\n"
-                    "**Now You Are In Trouble So Send** 🍁 `/start` 🍁  **To Start A Valid Conversation!!**")
+CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else " "
+USER_BOT_WARN_ZERO = " "
+USER_BOT_NO_WARN = ("**Hello !** \n\n  __💬 Messaging is not yet Authorised by you.__ "
+                    "\n\n __😏 Cool, still there is a way to get Authorisation for Message__ "
+                    "\n\n __Currently "
+                    f"{DEFAULTUSER} is Offline or may be Busy ! So Better Don't Spam His Inbox !__ \n\n"
+                    f"\n\n"
+                    "__Now You Are In Trouble \n So Send__ **/start**   __To Authorise, 💬 Messages!!__")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
